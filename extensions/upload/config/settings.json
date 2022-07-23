@@ -1,0 +1,8 @@
+{
+    "provider": "cloudinary",
+    "providerOptions": {
+        "cloud_name": "dirosugvb",
+        "api_key": "132561451537988",
+        "api_secret": "bId3rgixb-K3GShRUEwNZU7oB_8"
+    }
+}
