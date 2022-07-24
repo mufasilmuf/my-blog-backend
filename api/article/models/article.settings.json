@@ -68,6 +68,10 @@
     "meta_description": {
       "type": "string",
       "required": true
+    },
+    "views": {
+      "type": "biginteger",
+      "default": "0"
     }
   }
 }

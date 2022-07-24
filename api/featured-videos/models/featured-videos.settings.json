@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "featured_videos",
+  "info": {
+    "name": "Featured Videos"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "descripiton": {
+      "type": "string",
+      "required": true
+    },
+    "poster_img": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files",
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "video_url": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
